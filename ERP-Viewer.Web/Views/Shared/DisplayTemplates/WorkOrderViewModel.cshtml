@@ -1,0 +1,88 @@
+﻿@model ERP_Viewer.Web.Models.WorkOrderViewModel
+
+<div class="col-md-4 col-sm-6 col-xs12">
+    <div class="event-box">
+        <div>
+            <h4>@Html.DisplayNameFor(model => model.WorkOrderID): @Html.DisplayFor(model => model.WorkOrderID)</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.ProductID)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ProductID)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.OrderQty)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.OrderQty)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.StockedQty)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.StockedQty)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ScrappedQty)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ScrappedQty)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.StartDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.StartDate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.EndDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.EndDate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.DueDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.DueDate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ScrapReasonID)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ScrapReasonID)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ModifiedDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ModifiedDate)
+                </dd>
+
+            </dl>
+        </div>
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.WorkOrderID }) |
+            @Html.ActionLink("Remove", "Remove", new { id = Model.WorkOrderID })
+        </p>
+    </div>
+</div>

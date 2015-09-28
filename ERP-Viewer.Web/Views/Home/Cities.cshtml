@@ -1,0 +1,15 @@
+﻿@model ERP_Viewer.Web.Models.CitiesViewModel
+
+<h2>City Standards</h2>
+
+<div class="row">
+    @if (Model.geonames.Any())
+    {
+        @Html.DisplayFor(x => x.geonames)
+    }
+    else
+    {
+        <div class="col-md-4 col-sm-6 col-xs-12">No city information</div>
+    }
+</div>
+

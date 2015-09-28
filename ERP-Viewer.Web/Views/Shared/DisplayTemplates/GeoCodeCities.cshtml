@@ -1,0 +1,78 @@
+﻿@model ERP_Viewer.Web.Models.GeoCodeCities
+
+<div class="col-md-4 col-sm-6 col-xs12">
+    <div class="event-box">
+        <div>
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.name)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.countrycode)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.countrycode)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.fcodeName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.fcodeName)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.lat)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.lat)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.lng)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.lng)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.population)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.population)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.geonameId)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.geonameId)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.wikipedia)
+                </dt>
+
+                @{
+                    var wikipediaLink = "http://" + @Html.DisplayFor(model => model.wikipedia).ToString();
+                }
+
+                <dd>
+                    <a href="@wikipediaLink">Link</a>
+                </dd>
+
+            </dl>
+        </div>
+    </div>
+</div>

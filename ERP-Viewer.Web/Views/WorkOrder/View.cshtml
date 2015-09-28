@@ -1,0 +1,13 @@
+﻿@model ERP_Viewer.Web.Models.WorkOrderListViewModel
+
+@Html.ActionLink("Add Work Order", "Add", "WorkOrder")
+<div class="row">
+    @if (Model.WorkOrderList.Any())
+    {
+        @Html.DisplayFor(x => x.WorkOrderList)
+    }
+    else
+    {
+        <div class="col-md-4 col-sm-6 col-xs-12">No events</div>
+    }
+</div>

@@ -1,0 +1,15 @@
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\ERP-Viewer.Data.dll
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\ERP-Viewer.Data.pdb
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\EntityFramework.dll
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\EntityFramework.xml
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\obj\Debug\ERP-Viewer.Data.dll
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\obj\Debug\ERP-Viewer.Data.pdb
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\App_Data\AdventureWorks2012_Data.mdf
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\bin\Debug\App_Data\AdventureWorks2012_Data_log.ldf
+C:\Users\SilverEagle\Desktop\ERP-Viewer\ERP-Viewer.Data\obj\Debug\ERP-Viewer.Data.csprojResolveAssemblyReference.cache
